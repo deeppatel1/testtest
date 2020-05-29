@@ -1,8 +1,48 @@
 pipeline {
+    agent any
+
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
-                sh 'echo RUNNING FIRST STAGE!!!!!'
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+                echo 'Testing..'
+                echo 'Testing..'
+                echo 'Testing..'
+                echo 'Testing..'
+                echo 'Testing..'
+                echo 'Testing..'
+                echo 'Testing..'
+
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
+                echo 'Deploying....'
+
             }
         }
     }
